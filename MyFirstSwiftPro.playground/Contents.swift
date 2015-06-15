@@ -6,8 +6,7 @@ var str = "Hello, playground"
 println("Hello Swift")
 
 /*
- * 1 常亮和类型
- *
+ * 1 常量和类型
  */
 
 let maxNum = 1000
@@ -46,5 +45,5 @@ let a:Int = 3
 let b:Double = 0.1415926
 let pi:Double = Double(a)+b
 
-let 姓名 ＝ "李小龙"
-姓名+="你好"
+//let 姓名＝"李小龙"
+//姓名+="你好"
