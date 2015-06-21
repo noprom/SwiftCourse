@@ -3,8 +3,7 @@
 // 可选值Optional,若没有初始化则没有默认的值
 
 var a:Int
-a ＝ 1
-a
+
 
 
 var imOptionalVar:Int?
