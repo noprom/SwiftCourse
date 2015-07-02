@@ -19,5 +19,9 @@ var str2 = "      !sdsadsadsa   "
 str2.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
 str2.stringByTrimmingCharactersInSet(NSCharacterSet (charactersInString: " !"))
 
+// 分割字符串
+var str3 = "welcome! to my space!"
+str3.componentsSeparatedByString(" ")
+str3.componentsSeparatedByCharactersInSet(NSCharacterSet(charactersInString: " !"))
 
-
+// join
