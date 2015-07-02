@@ -24,4 +24,8 @@ var str3 = "welcome! to my space!"
 str3.componentsSeparatedByString(" ")
 str3.componentsSeparatedByCharactersInSet(NSCharacterSet(charactersInString: " !"))
 
-// join
+// Join
+var str4 = "-"
+str4.join(["1","2","3"])
+
+
