@@ -46,5 +46,15 @@ var score = 62
 var rate = score > 60 ? "及格" : "不及格"
 
 
+// nil运算符
+// 针对可选类型
+var username:String?
+username = "noprom"
+if username != nil{
+    println("Hello, \(username!)")
+}else{
+    println("Hello,guest!")
+}
+
 
 
