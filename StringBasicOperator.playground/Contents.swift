@@ -40,3 +40,16 @@ stra < strc
 let strd = "adcd"
 strc < strd
 
+// 字符串的前缀和后缀
+let chapterNames = [
+    "第一章","第二章","第三章",
+    "第四章","第五章","第六章"
+]
+
+var count = 0
+for name in chapterNames{
+    if (name.hasPrefix("第二章")){
+        count ++
+    }
+}
+count
