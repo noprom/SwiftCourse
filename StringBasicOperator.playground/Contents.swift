@@ -30,3 +30,13 @@ println("Int:\(imTuple)")
 println("Int:\(imOptional)")
 println("Int:\(imCharacter)")
 
+
+// 字符串的比较
+let stra = "abc"
+let strb = "abc"
+stra == strb
+let strc = "abd"
+stra < strc
+let strd = "adcd"
+strc < strd
+
