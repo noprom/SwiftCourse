@@ -42,8 +42,8 @@ strc < strd
 
 // 字符串的前缀和后缀
 let chapterNames = [
-    "第一章","第二章","第三章",
-    "第四章","第五章","第六章"
+    "第一章1","第二章2","第三章3",
+    "第四章4","第五章5","第六章6"
 ]
 
 var count = 0
@@ -53,3 +53,15 @@ for name in chapterNames{
     }
 }
 count
+
+count = 0
+for name in chapterNames{
+    if (name.hasSuffix("3")){
+        count ++
+    }
+}
+count
+
+
+
+
