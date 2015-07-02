@@ -56,5 +56,10 @@ if username != nil{
     println("Hello,guest!")
 }
 
+let outputname:String = username != nil ? username! : "guest"
+println("Hello," + outputname)
+
+let my:String = username ?? "Guest"
+
 
 
