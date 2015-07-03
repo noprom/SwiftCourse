@@ -29,3 +29,21 @@ arr[0...1] = ["你是谁你",""]
 arr
 
 arr[0...2] = ["XXXXX"]
+
+// 遍历数组
+arr
+
+for index in 0..<arr.count{
+    arr[index]
+}
+
+for (index,item) in enumerate(arr){
+    println("\(index) = \(item)")
+}
+
+for str in arr{
+    println(str)
+}
+
+
+
