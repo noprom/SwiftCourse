@@ -20,3 +20,12 @@ arr
 //arr.removeAll(keepCapacity: false)
 
 //arr.insert("~~~", atIndex: 200)
+
+// 修改数组中的元素
+arr[0] = "你妹"
+arr
+
+arr[0...1] = ["你是谁你",""]
+arr
+
+arr[0...2] = ["XXXXX"]
