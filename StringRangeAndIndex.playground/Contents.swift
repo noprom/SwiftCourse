@@ -21,5 +21,9 @@ let searchRange = Range<String.Index>(start:startIndex,end:endIndex)
 str.rangeOfString("play", options: NSStringCompareOptions.CaseInsensitiveSearch, range: searchRange)
 
 
+// substring
+var toIndex = advance(str.startIndex, 4)
+str.substringToIndex(toIndex)
+str.substringFromIndex(str.startIndex)
 
 
