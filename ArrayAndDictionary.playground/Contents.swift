@@ -30,6 +30,9 @@ array = Array<String>()
 
 var arr5 = [Int](count: 5, repeatedValue: 0)
 
+var arr6 = [2,1,4]
+var arr7 = numArr + arr6
+
 
 
 
