@@ -19,3 +19,19 @@ var str = String()
 
 var array4 = Array<String>()
 
+// 清空array,但是不改变存放的类型
+array = []
+array.append("AAA")
+array
+
+array = [String]()
+array = Array<String>()
+
+
+var arr5 = [Int](count: 5, repeatedValue: 0)
+
+
+
+
+
+
