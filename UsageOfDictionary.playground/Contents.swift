@@ -37,3 +37,17 @@ courses
 for (key,val) in courses{
     println("key = \(key) , value = \(val)")
 }
+
+// 数组的键 和 值
+courses.keys
+courses.values
+
+for key in courses.keys{
+    println(key)
+}
+
+for value in courses.values{
+    println(value)
+}
+
+
